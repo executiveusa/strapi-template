@@ -1,0 +1,30 @@
+{
+  "name": "strapi-template",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi template repository with Docker, CI/CD, and development tooling",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "test": "jest --forceExit --detectOpenHandles",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^4.15.0",
+    "@strapi/plugin-users-permissions": "^4.15.0",
+    "@strapi/plugin-i18n": "^4.15.0",
+    "better-sqlite3": "^9.2.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "author": "",
+  "maintainers": [],
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
